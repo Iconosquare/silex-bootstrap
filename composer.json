@@ -1,0 +1,19 @@
+{
+  "name": "tripnity/silex-bootstrap",
+  "type": "project",
+  "description": "project bootstrap",
+  "homepage": "https://github.com/Tripnity/silex-bootstrap",
+  "authors": [
+      {
+          "name": "Tripnity",
+          "email": "gcc@statigr.am"
+      }
+  ],
+  "minimum-stability":"dev",
+  "require": {
+      "php": ">=5.3",
+      "silex/silex": "1.0.*",
+      "symfony/twig-bridge": "2.1.*",
+      "twig/twig": ">=1.8,<2.0-dev"
+  }
+}
