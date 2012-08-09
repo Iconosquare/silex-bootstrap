@@ -5,3 +5,5 @@ composer.lock
 composer.phar
 vendor/
 /nbproject/
+bin/
+.DS_Store
