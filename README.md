@@ -1,2 +1,5 @@
 silex-bootstrap
 ===============
+
+## Configuration
+
