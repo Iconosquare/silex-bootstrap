@@ -1,5 +1,5 @@
 <?php
-namespace Tripnity\DbProvider;
+namespace Tripnity\Provider;
 
 use Silex\Application;
 use Silex\ServiceProviderInterface;
@@ -14,11 +14,11 @@ use Tripnity\Util;
  *
  * @author sylvain
  */
-class DbProvider implements ServiceProviderInterface {
+class DbProvider implements ServiceProviderInterface
+{
     public function register(Application $app)
     {
-      $app['db'] = $app->protect(function () {
-
+      $app['db'] = $app->share(function () {
            return new Util\Db();
         });
     }
