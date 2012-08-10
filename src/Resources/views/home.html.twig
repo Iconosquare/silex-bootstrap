@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>Hello homepage</h1>
+<p>you're on the homepage</p>
+
+<ul>
+  {% for user in users %}
+    {% include "user.html" with {'user': user} %}
+  {% endfor %}
+</ul>
+{% endblock %}
