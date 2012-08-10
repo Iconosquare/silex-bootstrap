@@ -10,7 +10,10 @@ $app->register(new Silex\Provider\TwigServiceProvider(), array(
 ));
 
 $app->get('/', function() use ($app) {
-  return $app['twig']->render('index.html.twig');     
+  $users = array(
+    "Jean", "Jacques", "Ludo"
+  );
+  return $app['twig']->render('home.html.twig', array('users' => $users));     
 });
 
 return $app;
