@@ -8,7 +8,7 @@ namespace Tripnity\Model;
 class User
 {
   
-  protected $username;
+  protected $username = "jeanluc";
   
   public function getUsername()
   {
