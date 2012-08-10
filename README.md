@@ -2,4 +2,4 @@ silex-bootstrap
 ===============
 
 ## Configuration
-OK
+ko
