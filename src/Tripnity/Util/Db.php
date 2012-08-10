@@ -15,6 +15,11 @@ class Db {
   //put your code here
   
   public function getConnection($string){
+        
+    if ('hello' === $string) {
+      return 'say: Hello WORLD';
+    }
+    
     return 'say: '.$string;
   }
 }
