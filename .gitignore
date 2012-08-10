@@ -1,5 +1,9 @@
 # for projects that use Waf for building: http://code.google.com/p/waf/
 .waf-*
 .lock-*
-vendors/
+composer.lock
+composer.phar
+vendor/
 /nbproject/
+bin/
+.DS_Store
